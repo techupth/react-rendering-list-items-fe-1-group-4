@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.movies-item {
+    display: flex;
+    font-family: kanit;
+    box-shadow: 0px 4px 40px 0px #917C7C40;
+    padding: 35px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    margin-left: 15px;
+    margin-top: -5px;
+
+  }
+
+.movies-image {
+    width: 102px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 40% 60%;
+
+}
+
+.movies-title, .movies-year, .movies-runtime, .movies-imdbRating, .movies-imdbVotes, .movies-director {
+    font-size: 17px;
+    line-height: 28px;
+
+  }
+
+  .movies-title {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+
+  .movies-genres {
+    display: flex;
+    gap: 5px;
+    font-size: 17px;
+  }
+  
+  .genre {
+    border-radius: 5px;
+    width: 58px;
+    height: 25px;
+    color: #000000;
+    background-color: #EAAC99;
+    border: #EAAC99;
+
+  }
