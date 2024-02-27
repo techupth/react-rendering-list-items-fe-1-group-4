@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .movies-item {
     display: flex;
     font-family: kanit;
@@ -32,7 +31,6 @@
     border-radius: 10px;
     object-fit: cover;
     object-position: 40% 60%;
-
 }
 
 .movies-title, .movies-year, .movies-runtime, .movies-imdbRating, .movies-imdbVotes, .movies-director {
